@@ -1,0 +1,31 @@
+## Task
+
+Transcribe the textual content visible in the attached JPG image.
+
+## Language context
+The document is in **Italian**, is **typewritten**, and dates from the **first half of the 20th century**. It may include personal names, place names, and idiomatic expressions typical of the period.
+
+## Instructions
+
+- Carefully **analyze the image visually**: do **not** use OCR scripts.
+- Recognize the **typewritten text**.
+- If the text is **legible**, transcribe it **faithfully**, preserving:
+  - original **spelling**, **punctuation**, and **line breaks**;
+  - marginal notes, annotations, corrections or crossed-out text (e.g., use ~~strikethrough~~ if text is clearly struck through);
+  - layout approximations (indentations, paragraph divisions, spacing).
+
+- If the text is **partially unreadable**, transcribe the **readable portions** and indicate gaps with `[...]`.
+- If **no legible text** is present, write:  
+  `No legible text found in the image. No transcription possible.`
+
+- Do **not** summarize, interpret, or translate the content.  
+- The output must be a **neutral, complete, and accurate** transcription.
+
+## Input  
+<input-image>  
+{image.jpg}  
+</input-image>
+
+## Output  
+A faithful transcription of all legible text in Italian, or:  
+`No legible text found in the image. No transcription possible.` 

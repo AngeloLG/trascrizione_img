@@ -1,0 +1,3 @@
+2025-06-01 14:37:37,683 - src.test_logging_llm_handler - INFO - test_logging_llm_handler.<module>:32 - Logging configurato per test_logging_llm_handler.py
+2025-06-01 14:37:37,684 - src.test_logging_llm_handler - ERROR - test_logging_llm_handler.<module>:74 - Errore di importazione: No module named 'src.llm_handler'. Assicurati che lo script sia eseguito dalla directory principale del progetto e che 'src' sia un package (contiene __init__.py).
+2025-06-01 14:37:37,684 - src.test_logging_llm_handler - INFO - test_logging_llm_handler.<module>:78 - Esecuzione di test_logging_llm_handler.py completata.

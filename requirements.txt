@@ -1,0 +1,7 @@
+openai
+Pillow
+python-dotenv
+transformers
+# torch - Installare separatamente dal sito PyTorch: https://pytorch.org/get-started/locally/
+# Esempio (CPU su Windows):
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu 
